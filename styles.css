@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Lato:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.img__logo {
+    width: 40px;
+}
+
+h1 {
+    color: #1A202C;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.purple {
+    color: #6515FF;
+}
+
+.container {
+    height: 80vh;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+/* 
+
+NAV
+
+*/
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.logo__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.nav__link {
+    font-size: 14px;
+    margin : 0 20px;
+    padding: 0 0 24px 0;
+    font-weight: 600;
+    color: black;
+    align-items: center;
+}
+
+.nav__login {
+    margin-left: 48px;
+}
+
+.nav__sign {
+    padding: 12px 32px;
+    background-color: #6415FF;
+    color: white;
+    border-radius: 50px;
+}
+
+/* 
+
+HEADER
+
+*/
+
+.header__text--container {
+    width: 40%;
+}
+
+.header__text--para {
+    font-size: 18px;
+    margin: 32px 0;
+    line-height: 1.5;
+}
+
+.header__wrapper {
+    display: flex;
+}
+
+.header__img--container {
+    width: 60%;
+}
+
+.email-input {
+    border: 2px solid rgb(226, 232, 240);
+    padding: 24px 184px 24px 32px;
+    border-radius: 32px;
+    position: relative;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: rgb(226, 232, 240);
+}
+
+.btn__get-start {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #6415FF;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 32px;
+    border: none;
+    position: absolute;
+    margin: 8px 0 0 240px;
+}
+
+.header__input {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.customers__title {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(160, 117, 194);
+    margin-bottom: 16px;
+}
+
+.customers__img--wrapper {
+    opacity: 0.5;
+    
+}
