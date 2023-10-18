@@ -43,6 +43,11 @@ h1 {
     margin: 0 auto;
 }
 
+.container {
+    display: flex;
+    margin-bottom: 200px;
+}
+
 .subtitle {
     font-size: 18px;
     color: #6415ff;
@@ -263,11 +268,6 @@ QUALITY WORK
     width: 50%;
 }
 
-.quality__container {
-    display: flex;
-    margin-bottom: 280px;
-}
-
 .quality__img {
     border: 1px solid rgb(226, 232, 240);
     border-radius: 4px;
@@ -288,11 +288,6 @@ STEPS
     margin-left: 48px;
 }
 
-.row__steps {
-    display: flex;
-    align-items: center;
-    margin-bottom: 200px;
-}
 
 .step {
     display: flex;
@@ -384,6 +379,7 @@ PRICING
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 160px;
 }
 
 
@@ -526,4 +522,46 @@ PRICING
 .button__buy--white {
     background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
     border-color: rgb(102, 126, 234);
+}
+
+/* 
+
+TESTIMONIALS
+
+*/
+
+.testimonials__picture--wrapper {
+    width: 50%;
+}
+
+.testimonials__wrapper {
+    width: 50%;
+    margin-left: 56px;
+}
+
+.testimonials__para {
+    margin-bottom: 44px;
+}
+
+.row__testimonials {
+    display: flex;
+}
+
+.rating {
+    color: #fabf2a;
+    margin-bottom: 24px;
+}
+
+.testimonials__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(36, 62, 99);
+    margin-bottom: 24px;
+}
+
+.testimonials__para {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(109, 85, 102);
+    line-height: 1.5;
 }
