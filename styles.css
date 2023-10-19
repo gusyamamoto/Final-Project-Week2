@@ -281,6 +281,8 @@ STEPS
 
 .steps__img {
     width: 60%;
+    display: flex;
+    align-items: center;
 }
 
 .steps__description {
@@ -477,7 +479,7 @@ PRICING
 
 .button__buy {
     border-bottom-left-radius: 12px;
-    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 .btn__green {
@@ -565,3 +567,115 @@ TESTIMONIALS
     color: rgb(109, 85, 102);
     line-height: 1.5;
 }
+
+.testimonial__persona {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial__pic {
+    width: 80px;
+    margin-right: 24px;
+}
+
+.testimonial__name {
+    color: rgb(36, 62, 99);
+}
+
+.testimonial__position {
+    color: rgb(124, 139, 161);
+}
+
+.testimonal__person {
+    margin-right: 180px;
+}
+
+/* 
+
+LAST
+
+*/
+
+#last {
+    margin-bottom: 180px;
+}
+
+.row__last {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    border-radius: 8px;
+    background-color: #6415FF;
+    padding: 56px 56px;
+}
+
+.ending {
+    color: white;
+    font-size: 30px;
+    max-width: 480px;
+    line-height: 1.5;
+}
+
+.btn__last {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin: 12px;
+    padding: 20px 40px;
+    border-radius: 32px;
+    border: none;
+}
+
+.get-started {
+    background-color: rgb(245, 101, 101);
+}
+
+.contact-us {
+    background-color: #6415FF;
+    border: 1px solid white;
+}
+
+/* 
+
+FOOTER
+
+*/
+
+footer {
+    background-color: #6415ff;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0;
+    border-bottom: 2px solid rgb(116, 44, 255);
+}
+
+.link__title {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+
+.footer__para {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.footer__bottom {
+    display: flex;
+}
+
+.footer__logo {
+    display: flex;
+}
+
+.footer__logo--wrapper {
+    width: 24px;
+}
+
+
