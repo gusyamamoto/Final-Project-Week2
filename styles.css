@@ -606,7 +606,7 @@ LAST
     border: none;
     border-radius: 8px;
     background-color: #6415FF;
-    padding: 56px 56px;
+    padding: 100px 100px;
 }
 
 .ending {
@@ -667,7 +667,10 @@ footer {
 }
 
 .footer__bottom {
+    padding: 56px 0;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer__logo {
@@ -675,7 +678,29 @@ footer {
 }
 
 .footer__logo--wrapper {
-    width: 24px;
+    width: 32px;
 }
 
+.footer__logo--react {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.trademark {
+    color: rgb(203, 213, 224);
+    font-weight: 500;
+}
+
+.social__link {
+    width: 36px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    padding: 12px;
+    margin-left: 8px;
+}
 
