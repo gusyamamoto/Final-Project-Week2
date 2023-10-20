@@ -12,34 +12,32 @@
   </head>
   <body>
     <section id="landing">
-      <div class="row">
+      <div class="row row__landing">
         <nav>
-          <a href="">
-            <div class="logo__nav">
+          <a class="logo__nav" href="#">
               <img src="./assets/treact_logo.svg" class="img__logo" alt="" />
               <span class="logo">Treact</span>
-            </div>
+          </a>
             <ul class="nav__links">
               <li>
-                <a href="" class="nav__link">About</a>
+                <a href="" class="nav__link nav__link--hover-effect">About</a>
               </li>
               <li>
-                <a href="" class="nav__link">Blog</a>
+                <a href="" class="nav__link nav__link--hover-effect">Blog</a>
               </li>
               <li>
-                <a href="" class="nav__link">Pricing</a>
+                <a href="" class="nav__link nav__link--hover-effect">Pricing</a>
               </li>
               <li>
-                <a href="" class="nav__link">Contact Us</a>
+                <a href="" class="nav__link nav__link--hover-effect">Contact Us</a>
               </li>
               <li>
-                <a href="" class="nav__link nav__login">Login</a>
+                <a href="" class="nav__link nav__link--hover-effect nav__login">Login</a>
               </li>
               <li>
                 <a href="" class="nav__link nav__sign">Sign Up</a>
               </li>
             </ul>
-          </a>
         </nav>
       </div>
 
@@ -427,41 +425,81 @@
     <footer>
       <div class="row">
       <div class="footer__links">
-      <div class="main">
-        <div class="link__title">MAIN</div>
-        <div class="footer__para">Blog</div>
-        <div class="footer__para">FAQs</div>
-        <div class="footer__para">Support</div>
-        <div class="footer__para">About Us</div>
-      </div>
-      <div class="product">
-        <div class="link__title">PRODUCT</div>
-        <div class="footer__para">Log In</div>
-        <div class="footer__para">Personal</div>
-        <div class="footer__para">Business</div>
-        <div class="footer__para">Team</div>
-      </div>
-      <div class="press">
-        <div class="link__title">PRESS</div>
-        <div class="footer__para">Logos</div>
-        <div class="footer__para">Events</div>
-        <div class="footer__para">Stories</div>
-        <div class="footer__para">Office</div>
-      </div>
-      <div class="team">
-        <div class="link__title">TEAM</div>
-        <div class="footer__para">Career</div>
-        <div class="footer__para">Founders</div>
-        <div class="footer__para">Culture</div>
-        <div class="footer__para">Onboarding</div>
-      </div>
-      <div class="legal">
-        <div class="link__title">LEGAL</div>
-        <div class="footer__para">GDPR</div>
-        <div class="footer__para">Privacy Policy</div>
-        <div class="footer__para">Terms of Service</div>
-        <div class="footer__para">Disclaimer</div>
-      </div>
+        <ul class="footer__links--menu">
+          <li class="footer__links--title">MAIN</li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Blog</a>
+          </li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">FAQs</a>
+          </li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Support</a>
+          </li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">About Us</a>
+          </li>
+        </ul>
+        <ul class="footer__links--menu">
+          <li class="footer__links--title">PRODUCT</li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Log In</a>
+          </li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Personal</a>
+          </li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">BUSINESS</a>
+          </li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Team</a>
+          </li>
+        </ul>
+        <ul class="footer__links--menu">
+          <li class="footer__links--title">PRESS</li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Logos</a>
+          </li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Events</a>
+          </li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Stories</a>
+          </li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Office</a>
+          </li>
+        </ul>
+        <ul class="footer__links--menu">
+          <li class="footer__links--title">TEAM</li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Career</a>
+          </li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Founders</a>
+          </li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Culture</a>
+          </li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Onboarding</a>
+          </li>
+        </ul>
+        <ul class="footer__links--menu">
+          <li class="footer__links--title">LEGAL</li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">GDPR</a>
+          </li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Privacy Policy</a>
+          </li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Terms of Service</a>
+          </li>
+          <li class="footer__link--list">
+            <a class="footer__link" href="#">Disclaimer</a>
+          </li>
+        </ul>
     </div>
     <div class="footer__bottom">
       <div class="footer__logo">
@@ -472,13 +510,13 @@
     </div>
       <div class="trademark">© 2018 Treact Inc. All Rights Reserved.</div>
       <div class="social__list">
-        <a href="">
+        <a href="https://facebook.com" target="_blank">
           <img class="social__link" src="./assets/facebook.svg" alt="">
         </a>
-        <a href="">
+        <a href="https://twitter.com" target="_blank">
           <img class="social__link" src="./assets/twitter.svg" alt="">
         </a>
-        <a href="">
+        <a href="https://youtube.com" target="_blank">
           <img class="social__link" src="./assets/youtube.svg" alt="">
         </a>
       </div>
