@@ -269,7 +269,7 @@ input::placeholder {
 
 .header__input {
     display: flex;
-    margin-bottom: 80px;  
+    margin-bottom: 80px;    
 }
 
 .customers__title {
@@ -901,6 +901,11 @@ RESPONSIVE
         text-align: center;
     }
 
+    .header__input {
+        display: flex;
+        justify-content: center;
+    }
+
     .service {
         width: calc(50%);
     }
@@ -1126,9 +1131,49 @@ RESPONSIVE
     .trademark {
         margin-bottom: 16px;
     }
+
+
 }
 
+/* 640 */
 
+@media (max-width: 640px) {
+    .header__text--container {
+        width: 100%;
+    }
 
+    .header__input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-640
+    .email-input {
+        margin-bottom: 12px;
+    }
+
+    .btn__get-start {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .testimonial__persona {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .testimonial__pic {
+        margin: 0;
+    }
+
+    .testimonal__person {
+        margin: 8px 0 8px 0;
+    }
+
+    .testimonial__name {
+        text-align: center;
+    }
+}
