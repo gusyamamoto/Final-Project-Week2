@@ -206,6 +206,80 @@ nav {
     background-color: rgb(80, 17, 204);
 }
 
+/* BURGER MENU */
+
+.btn__menu {
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    color: rgb(100, 21, 255);
+    display: none;
+}
+
+.menu__backdrop {
+    position: absolute;
+    background-color: white;
+    top: 8px;
+    left: 9px;
+    width: 96vw;
+    height: 460px;
+    border: 1px solid rgb(226, 232, 240);
+    border-radius: 8px;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu--open .menu__backdrop {
+    visibility: visible;
+    opacity: 1;
+    animation: animate-backdrop 300ms
+}
+
+.menu__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__list {
+    padding: 20px 0;
+}
+
+.menu__link {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(36, 62, 99);
+}
+
+.btn__menu--close {
+    position: absolute;
+    right: 12px;
+    top: 30px;
+}
+
+@keyframes animate-backdrop {
+    0% {
+        transform: translateX(50px);
+    }
+
+    40% {
+        transform: translateX(-100px)
+    }
+
+    80% {
+        transform: translateX(80px);
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
+
+
 /* 
 
 HEADER
@@ -744,6 +818,11 @@ LAST
     border: none;
 }
 
+.button__last {
+    display: flex;
+    justify-content: center;
+}
+
 .get-started {
     background-color: rgb(245, 101, 101);
     transition: all 350ms ease;
@@ -904,6 +983,14 @@ RESPONSIVE
     .header__input {
         display: flex;
         justify-content: center;
+    }
+
+    .nav__links {
+        display: none;
+    }
+
+    .btn__menu {
+        display: block;
     }
 
     .service {
@@ -1175,5 +1262,10 @@ RESPONSIVE
 
     .testimonial__name {
         text-align: center;
+    }
+
+    .button__last {
+        display: flex;
+        flex-direction: column;
     }
 }
